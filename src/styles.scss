@@ -96,13 +96,14 @@ html, body, #root {
           }
         }
         .remove-from-cart {
-          margin: 0 10px;
+          margin-top: 10px;
           &:hover {
             background-color: rgb(255, 18, 1);
           }
         }
         .increase, .decrease {
           padding: 8px 20px;
+          margin-right: 10px;
         }
       }
     }

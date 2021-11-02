@@ -33,10 +33,10 @@ const Cart = () => {
             <p><b>Total:</b> {(book.price * book.count).toFixed(2)}$</p>
             <p><b>Count:</b> {book.count}</p>
             <button className="increase" onClick={() => context.decrease(book.id)}><FiMinus /></button>
+            <button className="decrease" onClick={() => context.increase(book.id)}><FiPlus /></button>
             <button className="remove-from-cart" onClick={() => context.removeFromCart(book.id)}>
               Remove from Cart
             </button>
-            <button className="decrease" onClick={() => context.increase(book.id)}><FiPlus /></button>
           </div>
         </div>
       ))}

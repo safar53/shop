@@ -110,7 +110,7 @@ html, body, #root {
 }
 
 .App .container .book .book-info .remove-from-cart {
-  margin: 0 10px;
+  margin-top: 10px;
 }
 
 .App .container .book .book-info .remove-from-cart:hover {
@@ -119,5 +119,6 @@ html, body, #root {
 
 .App .container .book .book-info .increase, .App .container .book .book-info .decrease {
   padding: 8px 20px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
