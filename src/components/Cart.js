@@ -18,7 +18,7 @@ const Cart = () => {
   return (
     <div className="container">
       <h2>
-        <Link to="/"><FiArrowLeft />Book List</Link> <span><FiShoppingCart />Cart ({totalCartCount})</span>
+        <Link to="/shop"><FiArrowLeft />Book List</Link> <span><FiShoppingCart />Cart ({totalCartCount})</span>
       </h2>
 
       <h3 className="total-amount">Total Cart Amount: {totalCartAmount}$</h3>

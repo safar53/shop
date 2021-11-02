@@ -56,7 +56,7 @@ export default function App() {
     >
       <div className="App">
         <h1><FiShoppingBag />Shop</h1>
-        <Route exact path="/" component={Products} />
+        <Route exact path="/shop" component={Products} />
         <Route path="/cart" component={Cart} />
       </div>
     </MainContext.Provider>
