@@ -169,7 +169,7 @@ body,
 
 @media (max-width: 512px) {
   .book-container {
-    margin: 10px;
+    margin: 10px !important;
   }
   .book-container .book-img {
     width: 160px !important;
