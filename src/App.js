@@ -4,8 +4,6 @@ import { Route } from "react-router-dom";
 import MainContext from "./MainContext";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
-import { FiShoppingBag } from "react-icons/fi"
-
 import { data } from "./data";
 
 export default function App() {
@@ -55,7 +53,6 @@ export default function App() {
       value={{ state: state, addToCart, removeFromCart, increase, decrease }}
     >
       <div className="App">
-        <h1><FiShoppingBag />Shop now</h1>
         <Route exact path="/shop" component={Products} />
         <Route path="/cart" component={Cart} />
       </div>
